@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+      /* Custom CSS for extra spacing between li elements */
+      .navbar-nav .nav-item {
+        margin-right: 20px; /* Adjust this value for more or less spacing */
+      }
+      .navbar-nav .nav-item:last-child {
+        margin-right: 0; /* Remove margin from the last item */
+      }
+    </style>
+</head>
+<body>
+    <div class="container-custom">
+        <header>
+            <img src="img/985cabb6920eaaeecfea44bd6b5ef5d8.png" alt="intro">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Çözüm ve Hizmetler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ürünler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Teknolojiler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">İnsan Kaynakları</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kurumsal</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-danger d-none d-lg-block ms-2" type="submit">İletişim</button>
+                    </div>
+                            <button class="btn btn-danger d-lg-none ms-auto" type="submit">İletişim</button>
+                </div>
+            </nav>
+          </nav>
+          <div class="header-box">
+            <h1>
+                Bilgi Teknolojilerinde
+                23 Yıllık Tecrübe
+            </h1>
+            <p>
+                Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe 
+                kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.
+            </p>
+            <div class="header-form-container">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Mail bültenimize kayıt ol" aria-label="Search">
+                    <button class="btn btn-danger" type="submit">Kayıt Ol</button>
+                </form>
+            </div>
+        </div>
+        </header>
+       
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
