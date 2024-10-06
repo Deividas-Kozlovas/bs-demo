@@ -296,11 +296,6 @@ footer p{
         justify-content: center;
     }
 
-    .sponsors .sponsors-img-container div:nth-child(4),
-    .sponsors .sponsors-img-container div:nth-child(5){
-        display: none;
-     }
-
      footer .background{
         height: 1150px;
     }
