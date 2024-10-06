@@ -1,5 +1,6 @@
 body {
     font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .container-custom {
@@ -90,25 +91,25 @@ header img {
     margin: 0 auto;
 }
 
-.loaction {
+.location {
     margin-top: 100px;
 }
 
-.loaction h3{
+.location h3{
     font-size: 50px;
     padding-top: 90px;
 }
 
-.loaction p{
+.location p{
     margin-bottom: 80px;
 }
 
-.loaction h3,
-.loaction-text{
+.location h3,
+.location-text{
     text-align: center;
 }
 
-.loaction-img{
+.location-img{
     position: absolute;
     width: 100%;
     height: 420px;
@@ -116,11 +117,11 @@ header img {
     z-index: -1;
 }
 
-.loaction-box{
+.location-box{
     text-align: center;
 }
 
-.loaction-box img {
+.location-box img {
     width: 50px;
     margin-top: 10px;
 }
@@ -162,6 +163,18 @@ header img {
     justify-content: center;
     align-items: center;
     size: auto;
+}
+
+.sponsors .sponsors-img-container div:nth-child(1){
+    justify-content: end;
+}
+
+.sponsors .sponsors-img-container div:nth-child(5){
+    justify-content: start;
+}
+
+.sponsors .sponsors-img-container div img{
+    height: 100%;
 }
 
 .contacts{
@@ -213,7 +226,7 @@ footer p{
 }
 
 @media (max-width: 2100px) {
-    .loaction-img{
+    .location-img{
         height: 470px;
     }
 }
@@ -251,21 +264,21 @@ footer p{
 }
 
 @media (max-width: 1199px) {
-    .loaction-img{
+    .location-img{
         height: 1080px;
     }
 
-    .loaction p{
+    .location p{
         text-align: center;
         width: 250px;
         margin: 0 auto;
     }
 
-    .loaction .loaction-text{
+    .location .location-text{
         margin-bottom: 80px;
     }
 
-    .loaction-box img {
+    .location-box img {
         width: 50px;
         padding: 40px 0;
         transform: rotate(90deg);
@@ -278,6 +291,10 @@ footer p{
     .sponsors .sponsors-img-container img{
        width: 500px; 
     }   
+
+    .sponsors .sponsors-img-container div:nth-child(1){
+        justify-content: center;
+    }
 
     .sponsors .sponsors-img-container div:nth-child(4),
     .sponsors .sponsors-img-container div:nth-child(5){
