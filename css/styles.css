@@ -137,12 +137,31 @@ header img {
     width: 100%;
 }
 
+.sponsors{
+    margin-top: 200px;
+}
 
+.sponsors h5{
+    font-size: 70px;
+}
+
+.sponsors h5,
+.sponsors p{
+    text-align: center;
+}
 
 .about .about-content button{
     margin-top: 50px;
     font-size: 25px;
     width: 150px;
+}
+
+.sponsors .sponsors-img-container,
+.sponsors .sponsors-img-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: auto;
 }
 
 @media (max-width: 2100px) {
@@ -187,6 +206,19 @@ header img {
         padding: 40px 0;
         transform: rotate(90deg);
     }
+
+    .about .about-content button{
+        width: 100%;
+    }
+
+    .sponsors .sponsors-img-container img{
+       width: 500px; 
+    }   
+
+    .sponsors .sponsors-img-container div:nth-child(4),
+    .sponsors .sponsors-img-container div:nth-child(5){
+        display: none;
+     }   
 }
 
 @media (max-width: 660px) {
