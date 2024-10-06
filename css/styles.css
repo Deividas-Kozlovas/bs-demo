@@ -164,6 +164,24 @@ header img {
     size: auto;
 }
 
+.contacts{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.contacts h6{
+    font-size: 70px;
+}
+
+.contacts img{
+    width: 150px;
+}
+
+.contacts button{
+    font-size: 30px;
+    padding: 10px 35px;
+}
+
 @media (max-width: 2100px) {
     .loaction-img{
         height: 470px;
@@ -218,7 +236,7 @@ header img {
     .sponsors .sponsors-img-container div:nth-child(4),
     .sponsors .sponsors-img-container div:nth-child(5){
         display: none;
-     }   
+     }
 }
 
 @media (max-width: 660px) {
