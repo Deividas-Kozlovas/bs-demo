@@ -122,7 +122,27 @@ header img {
 
 .loaction-box img {
     width: 50px;
-    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.about{
+    margin-top: 200px;
+}
+
+.about h4{
+    font-size: 80px;
+}
+
+.about img{
+    width: 100%;
+}
+
+
+
+.about .about-content button{
+    margin-top: 50px;
+    font-size: 25px;
+    width: 150px;
 }
 
 @media (max-width: 2100px) {
