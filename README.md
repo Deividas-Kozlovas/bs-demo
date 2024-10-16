@@ -10,7 +10,7 @@ This project is a simple landing page built using Bootstrap. It showcases the es
 
 1. Clone the repository:
 ```bash
-git clone [[repository-url]](https://github.com/Deividas-Kozlovas/bs-demo.git)
+git clone https://github.com/Deividas-Kozlovas/bs-demo.git
 cd bs-demo
 ```
 
